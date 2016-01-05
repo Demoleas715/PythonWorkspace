@@ -26,6 +26,7 @@ class Screen_Battle (tkinter.Frame):
         # TO DO
         #
         
+        
     def attack_clicked(self):
         ''' This method is called when the user presses the "Attack" button.
             

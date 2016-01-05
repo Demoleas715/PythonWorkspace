@@ -25,7 +25,7 @@ class Screen_character_selector (tkinter.Frame):
         The variable self.character has been instantiated for your convenience below.
         
         Here is sample code for including an image on a page:   (char is a Character object)
-            imageSmall = tkinter.PhotoImage(file="images/" + char.small_image);
+            imageSmall = tkinter.PhotoImage(file="images/" + char.small_image)
             w= tkinter.Label (self,
                         image = imageSmall, 
                          )
@@ -44,11 +44,21 @@ class Screen_character_selector (tkinter.Frame):
         for character in self.char_list.character_list:
             tkinter.Radiobutton(self, text=character.name, variable=self.character, value=v).grid(row=r, column=0, sticky=tkinter.W)
 
+            tkinter.Label(self, text="Hit Points").grid(row=0, column=2, sticky=tkinter.W)
+            tkinter.Label(self, text="Dexterity").grid(row=0, column=3, sticky=tkinter.W)
+            tkinter.Label(self, text="Strength").grid(row=0, column=4, sticky=tkinter.W)
             tkinter.Label(self, text=character.hit_points).grid(row=r, column=2, sticky=tkinter.W)
             tkinter.Label(self, text=character.dexterity).grid(row=r, column=3, sticky=tkinter.W)
             tkinter.Label(self, text=character.strength).grid(row=r, column=4, sticky=tkinter.W)
+            imageSmall = tkinter.PhotoImage(file="images/" + character.small_image)
+            w= tkinter.Label (self, image = imageSmall)
+            w.photo = imageSmall
+
+            w.grid (row=r, column=1, sticky=tkinter.W)
             v+=1
             r+=1
+        
+        tkinter.Button(self, text="Continue to Battle", command=self.continue_clicked).grid(row=5, column=4, sticky=tkinter.W)
     def continue_clicked(self):
         ''' This method is called when the Next button is clicked. 
             Notice that it passes self.character back to the callback method. '''         
