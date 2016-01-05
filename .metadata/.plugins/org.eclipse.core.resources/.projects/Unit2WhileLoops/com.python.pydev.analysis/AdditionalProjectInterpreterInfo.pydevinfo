@@ -1,0 +1,41 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\Coding\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Unit2WhileLoops\com.python.pydev.analysis\v2_indexcache
+NumberGuessingGame|1446001983737143000|D:\Coding\workspace\Unit2WhileLoops\NumberGuessingGame.py
+RockPaperScissors|1446001983793147000|D:\Coding\workspace\Unit2WhileLoops\RockPaperScissors.py
+AreaAndCircumference|1446001983944155000|D:\Coding\workspace\Unit2WhileLoops\AreaAndCircumference.py
+ElectronicPiggyBank|1446001983970157000|D:\Coding\workspace\Unit2WhileLoops\ElectronicPiggyBank.py
+MilesToKilometers|1446001983723143000|D:\Coding\workspace\Unit2WhileLoops\MilesToKilometers.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+1=RockPaperScissors
+4=NumberGuessingGame
+3=AreaAndCircumference
+2=ElectronicPiggyBank
+5=MilesToKilometers
+-- END DICTIONARY
+-- START TREE 1
+18
+cho|1|choice!11@
+coi|1|coin!19@
+com|1|comp!11@
+csc|1|cscore!11@
+d|1|d!19@
+fin|2|find_circumference!26@find_area!26@
+gue|2|guess!35@guesscount!35@
+k|1|k!43@
+kil|1|kilometers!43@
+m|1|m!43@
+mai|1|main!26@
+mil|1|miles!43@
+n|1|n!19@
+num|1|number!35@
+p|1|p!19@
+pri|1|principal!19@
+psc|1|pscore!11@
+q|1|q!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

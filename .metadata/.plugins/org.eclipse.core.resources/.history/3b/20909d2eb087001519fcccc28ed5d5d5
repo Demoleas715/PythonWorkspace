@@ -1,0 +1,6 @@
+def get_text_file(filename):
+    text_file=open(filename, "r")
+    
+    my_dict={}
+    
+    for c in my 

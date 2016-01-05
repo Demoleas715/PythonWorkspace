@@ -1,0 +1,43 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\Coding\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Unit1Basics\com.python.pydev.analysis\v2_indexcache
+CompanyInvoice|1446001983961156000|D:\Coding\workspace\Unit1Basics\CompanyInvoice.py
+InterestCalculator|1446001983707142000|D:\Coding\workspace\Unit1Basics\InterestCalculator.py
+TimeMachine|1446001983831149000|D:\Coding\workspace\Unit1Basics\TimeMachine.py
+WhatsYourOrder|1446001983847150000|D:\Coding\workspace\Unit1Basics\WhatsYourOrder.py
+ReadFile|1446001983748144000|D:\Coding\workspace\Unit1Basics\ReadFile.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+1=InterestCalculator
+4=CompanyInvoice
+3=TimeMachine
+2=WhatsYourOrder
+5=ReadFile
+-- END DICTIONARY
+-- START TREE 1
+20
+P|1|P!11@
+a|1|a!19@
+b|1|b!19@
+c|1|c!19@
+com|1|compoundinterest!11@
+con|1|conversion!11@
+day|1|DAY_OF_WEEK!27@
+get|4|get_day_of_week!26@get_days_in_years!26@get_days_in_month!26@get_days_in_months!26@
+is_|1|is_leap_year!26@
+ite|2|item1!35@item2!35@
+mai|1|main!26@
+my_|1|my_list!43@
+n|1|n!11@
+ppi|2|ppi1!35@ppi2!35@
+qua|2|quantity1!35@quantity2!35@
+r|1|r!11@
+sim|1|simpleinterest!11@
+t|1|t!11@
+tex|1|text_file!43@
+tot|2|totalcost2!35@totalcost1!35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

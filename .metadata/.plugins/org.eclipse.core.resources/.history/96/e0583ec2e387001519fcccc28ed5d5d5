@@ -1,0 +1,21 @@
+def read_states_into_dict(filename):
+    text_file=open(filename, "r")
+    
+    my_dict={}
+    
+    for c in my
+    
+
+def quiz(my_dict):
+    
+    
+def get_data_file_choice():
+
+
+def main():
+    file_name=get_data_file_choice()
+    my dict = read_states_into_dict(filename) 
+    quiz(my_dict)
+
+    
+main()

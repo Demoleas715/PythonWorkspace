@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Unit4Object/EncryptWithObjects.py&apos;" deleteContents="false" description="Delete resource &apos;Unit4Object/EncryptWithObjects.py&apos;" element1="/Unit4Object/EncryptWithObjects.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1448740153573"/>&#x0A;<refactoring comment="Delete resource &apos;Unit4Object/Encrypt_Objects.py&apos;" deleteContents="false" description="Delete resource &apos;Unit4Object/Encrypt_Objects.py&apos;" element1="/Unit4Object/Encrypt_Objects.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1448740158255"/>
+</session>

@@ -1,0 +1,58 @@
+import random
+
+#Dictionary of the valid quizzes available to the user
+#The key is the label and the value is the data file name.
+data_files={"East": "states_east.txt",
+            "West": "states_west.txt",
+            "South": "states_south.txt",
+            "Central": "states_central.txt",
+            "All": "states_all.txt"
+            }
+
+def read_states_into_dict(filename):
+    text_file=open(filename, "r")
+    
+    my_dict={}
+    
+    for line in text_file:
+        line=line.strip().split("\t")
+        my_dict[line[0]] = line[1]
+    
+    return my_dict    
+        
+    
+    
+    """
+    Loads the specified text file.
+    There is one State / Capital combination per line.
+    the state capital are separated by the tab character.
+    
+    Hint: It is advisable to call strip() on the capital string prior to adding
+    it to the dictionary to remove the new line character.
+    """
+
+def quiz(my_dict):
+    """This method implements a loop that will continue to quiz the user until the user types
+    "quit" or correctly identifies all of the capitals in the list.
+    
+    Each time the user identifies a capital, it is removed from the list.
+    
+    At the end, the function will report how many guesses were required by the user.
+    """
+    
+def get_data_file_choice():
+    region=input("Choose a region to study").lower()
+    while region not in "southeastwestcentralall":
+        
+    """
+    Asks the user to select a data file to use for the quiz.
+    The function makes sure the user makes a valid selection.
+    The function returns the filename selected by the user.
+    """
+
+def main():
+    file_name=get_data_file_choice()
+    my_dict = read_states_into_dict(file_name) 
+    quiz(my_dict)
+    
+main()

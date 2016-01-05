@@ -1,0 +1,6 @@
+MODULES_MANAGER_V2
+battle_manager|D:\Coding\workspace\Battle\battle_manager.py
+characters|D:\Coding\workspace\Battle\characters.py
+screen_battle|D:\Coding\workspace\Battle\screen_battle.py
+screen_pick_character|D:\Coding\workspace\Battle\screen_pick_character.py
+screen_prepare_to_battle|D:\Coding\workspace\Battle\screen_prepare_to_battle.py

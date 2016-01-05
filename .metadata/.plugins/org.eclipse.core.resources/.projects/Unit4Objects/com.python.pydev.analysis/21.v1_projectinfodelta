@@ -1,0 +1,14 @@
+INSTUPStudent
+D:\Coding\workspace\Unit4Objects\Student.py
+INFOS:&&1|1|1|0&&2|2|1|1&&3|3|1|4&&3|5|1|4&&3|6|1|4&&3|7|1|4&&2|8|1|1&&2|9|1|1&&2|10|1|1&&2|11|1|1
+lastName=3
+firstName=5
+teacher=6
+addGrades=9
+addGrade=8
+__str__=11
+__grades=7
+Student=1
+__init__=2
+getAverage=10
+Student.__init__=4

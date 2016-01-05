@@ -1,0 +1,100 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\Coding\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Notes\com.python.pydev.analysis\v2_indexcache
+AnnualBalance|1446002006474444000|D:\Coding\workspace\Notes\AnnualBalance.py
+FavoriteColorWarmup|1446002006524447000|D:\Coding\workspace\Notes\FavoriteColorWarmup.py
+ranges|1446002006389439000|D:\Coding\workspace\Notes\ranges.py
+DollarsToEuros|1446002006517446000|D:\Coding\workspace\Notes\DollarsToEuros.py
+ForDollarsToEuros|1446002006531447000|D:\Coding\workspace\Notes\ForDollarsToEuros.py
+SplittingInput|1446002006399440000|D:\Coding\workspace\Notes\SplittingInput.py
+BoolenTest|1446002006482444000|D:\Coding\workspace\Notes\BoolenTest.py
+ForLoopPractice|1446002006310434000|D:\Coding\workspace\Notes\ForLoopPractice.py
+PracticeTest|1446002006382439000|D:\Coding\workspace\Notes\PracticeTest.py
+FunctionPractice|1446002006342436000|D:\Coding\workspace\Notes\FunctionPractice.py
+3SidedDie|1446002006467443000|D:\Coding\workspace\Notes\3SidedDie.py
+Lists|1446002006365438000|D:\Coding\workspace\Notes\Lists.py
+Test|1447944129578251000|D:\Coding\workspace\Notes\Test.py
+CrapsRoller|1446002006495445000|D:\Coding\workspace\Notes\CrapsRoller.py
+FortuneCookie|1446002006331436000|D:\Coding\workspace\Notes\FortuneCookie.py
+CoinFlip|1446002006488445000|D:\Coding\workspace\Notes\CoinFlip.py
+DictionaryNotes|1446231247169820000|D:\Coding\workspace\Notes\DictionaryNotes.py
+WeightsTable|1446002006422441000|D:\Coding\workspace\Notes\WeightsTable.py
+1To100Table|1446002006456443000|D:\Coding\workspace\Notes\1To100Table.py
+TicTacToeFunctionPractice|1446002006415440000|D:\Coding\workspace\Notes\TicTacToeFunctionPractice.py
+DistanceTable|1446002006501445000|D:\Coding\workspace\Notes\DistanceTable.py
+FunctionsNotes|1446002006354437000|D:\Coding\workspace\Notes\FunctionsNotes.py
+CharCount|1446233039854355000|D:\Coding\workspace\Notes\CharCount.py
+FormatWhilePractice|1446002006319435000|D:\Coding\workspace\Notes\FormatWhilePractice.py
+my_list|1446002006374438000|D:\Coding\workspace\Notes\my_list.py
+DistinctNumbers|1446002006510446000|D:\Coding\workspace\Notes\DistinctNumbers.py
+-- END DISKCACHE
+-- START DICTIONARY
+25
+5=AnnualBalance
+7=FavoriteColorWarmup
+3=ranges
+1=DollarsToEuros
+2=ForDollarsToEuros
+21=SplittingInput
+4=BoolenTest
+18=ForLoopPractice
+24=PracticeTest
+15=FunctionPractice
+9=3SidedDie
+20=Lists
+23=Test
+8=CrapsRoller
+11=FortuneCookie
+6=CoinFlip
+17=DictionaryNotes
+19=1To100Table
+13=TicTacToeFunctionPractice
+10=FunctionsNotes
+14=DistanceTable
+16=CharCount
+25=FormatWhilePractice
+12=my_list
+22=DistinctNumbers
+-- END DICTIONARY
+-- START TREE 1
+36
+D|1|D!11@
+E|2|E!11@E!19@
+a|2|a!27@a!35@
+b|2|b!35@b!27@
+bal|1|balance!43@
+coi|2|coin!51@COINS!51@
+col|1|color!59@
+cou|1|counter!51@
+die|3|die1!67@die!75@die2!67@
+f|1|f!82@
+for|1|fortune!91@
+fun|1|func_b!98@
+g|1|g!82@
+hea|3|HEADS!51@heads!51@headsChain!51@
+ins|1|instructions!106@
+int|1|interest!43@
+k|1|k!115@
+lon|1|longer!122@
+m|1|m!115@
+mai|5|main!82@main!98@main!106@main!122@main!130@
+max|1|max!122@
+my_|2|my_d!139@my_k!139@
+mys|2|mystr!147@mySum!27@
+n|1|n!155@
+nam|2|names!163@name_list!163@
+num|4|num!171@num_list!171@numList!179@num!179@
+rat|1|rate!43@
+rea|1|read_char_dist!130@
+spa|1|spaces!147@
+sta|3|state_birds!187@state_bird!187@state!187@
+tai|3|tailsChain!51@tails!51@TAILS!51@
+tot|1|total!67@
+tri|1|tries!75@
+vow|1|vowels!147@
+x|2|x!195@x!203@
+y|2|y!43@y!195@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE
