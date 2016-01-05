@@ -364,7 +364,7 @@
       <tags>categoryTag:Mylyn</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_0VF8-47IEeWLEO475lB5yw" elementId="org.python.pydev.navigator.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="PyDev Package Explorer" iconURI="platform:/plugin/org.python.pydev/icons/pydev_package_explorer.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1446001303215&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Battle&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Battle/images&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Notes&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit1Basics&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit2WhileLoops&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit3ListsFunctionsDicts&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit4Objects&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit5GUI&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;D:/Coding/workspace/Battle&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1446001303215&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Battle&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Battle/images&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Notes&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit1Basics&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit2WhileLoops&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit3ListsFunctionsDicts&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit4Objects&quot;/>&#xD;&#xA;&lt;expanded IMemento.internal.id=&quot;D:/Coding/workspace/Unit5GUI&quot;/>&#xD;&#xA;&lt;selected IMemento.internal.id=&quot;D:/Coding/workspace/Unit3ListsFunctionsDicts&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:PyDev</tags>
       <tags>active</tags>
@@ -400,7 +400,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0VF9II7IEeWLEO475lB5yw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_40FNMLNjEeWFEIXwX3vdug" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0VOf-Y7IEeWLEO475lB5yw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_KVyT8LNlEeWE1pCJBogV4w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0VOf-Y7IEeWLEO475lB5yw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0VGjpo7IEeWLEO475lB5yw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -433,7 +433,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0VGj7I7IEeWLEO475lB5yw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_40HpcLNjEeWFEIXwX3vdug" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0VOfoI7IEeWLEO475lB5yw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_KV0wMbNlEeWE1pCJBogV4w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0VOfoI7IEeWLEO475lB5yw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0VGj947IEeWLEO475lB5yw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
