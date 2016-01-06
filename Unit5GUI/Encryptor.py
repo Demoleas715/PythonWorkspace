@@ -1,3 +1,5 @@
+import tkinter
+
 class Encryptor (object):
     
     def __init__ (self, file_name):   
@@ -32,3 +34,4 @@ class Encryptor (object):
 
         return out_msg
         
+
