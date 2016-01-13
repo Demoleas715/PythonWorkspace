@@ -26,8 +26,6 @@ class Screen_Battle (tkinter.Frame):
         #
         # TO DO
         #
-        self.r=4
-
         self.attack_button = tkinter.Button(self, text = "Attack", command = self.attack_clicked, font=("Impact", 18), bg="black", fg="red")
         self.attack_button.grid(row=0, rowspan=2, column=0)
         self.you = tkinter.Label(self, text = "You")
