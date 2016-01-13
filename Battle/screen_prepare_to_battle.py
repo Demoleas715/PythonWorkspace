@@ -23,27 +23,26 @@ class Screen_prepare_to_battle (tkinter.Frame):
         # TO DO
         #
         tkinter.Label(self, text="You").grid(row=0, column=0)
-        tkinter.Label(self, text="Computer").grid(row=0, column=1)
+        tkinter.Label(self, text="Computer").grid(row=0, column=2)
         imageLarge = tkinter.PhotoImage(file="images/" + self.player1.large_image)
-        w= tkinter.Label (self, image = imageLarge)
+        w = tkinter.Label (self, image = imageLarge)
         w.photo = imageLarge
         imageLarge2 = tkinter.PhotoImage(file="images/" + self.player2.large_image)
         w2 = tkinter.Label(self, image = imageLarge2)
         w2.photo = imageLarge2
         
         w.grid(row=1, column=0)
-        w2.grid(row=1, column=1)
+        w2.grid(row=1, column=2)
         
-        tkinter.Label(self, text=str(self.player1.hit_points)).grid(row=2, column=0)
-        tkinter.Label(self, text=str(self.player2.hit_points)).grid(row=2, column=1)
-        tkinter.Label(self, text=str(self.player1.dexterity)).grid(row=3, column=0)
-        tkinter.Label(self, text=str(self.player2.dexterity)).grid(row=3, column=1)
-        tkinter.Label(self, text=str(self.player1.strength)).grid(row=4, column=0)
-        tkinter.Label(self, text=str(self.player2.strength)).grid(row=4, column=1)
-        tkinter.Button(self, text="Let's Battle!", command=self.continue_clicked).grid(row=5, column=1, sticky=tkinter.E)
+        tkinter.Label(self, text="VS", font=("Impact", 72)).grid(row=1, column=1)
+        tkinter.Label(self, text=str(self.player1.hit_points) + " HP").grid(row=2, column=0)
+        tkinter.Label(self, text=str(self.player2.hit_points) + " HP").grid(row=2, column=2)
+        tkinter.Label(self, text=str(self.player1.dexterity) + " Dexterity").grid(row=3, column=0)
+        tkinter.Label(self, text=str(self.player2.dexterity) + " Dexterity").grid(row=3, column=2)
+        tkinter.Label(self, text=str(self.player1.strength) + " Strength").grid(row=4, column=0)
+        tkinter.Label(self, text=str(self.player2.strength) + " Strength").grid(row=4, column=2)
+        tkinter.Button(self, text="Let's Battle!", command=self.continue_clicked).grid(row=5, column=2, sticky=tkinter.E)
     def continue_clicked(self):
         ''' This method is called when the Battle button is clicked. 
             It passes control back to the callback method. '''         
         self.call_on_selected()
-            
-        

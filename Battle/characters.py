@@ -45,8 +45,8 @@ class Character (object):
         
     def die (self):
         ''' Prints a death message. '''
-        print (self.name + ": Ahhhhh.. too much damage!  I have died.")
-        
+        return self.name + ": Ahhhhh.. too much damage!  I have died."
+
     def __str__ (self):
         ''' Prints the name, hit points, strength, and dexterity of the object. '''
         return self.name + "; HP: " + str(self.hit_points) + "; Strength: " + str(self.strength) + "; Dexterity: " + str(self.dexterity)        
