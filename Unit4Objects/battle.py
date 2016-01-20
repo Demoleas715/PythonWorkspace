@@ -24,8 +24,8 @@ def main ():
     rnd = 1
     while (player.hit_points > 0 and computer.hit_points > 0):
         print ("Round: " + str (rnd))
-        player.attack (computer)       
-        computer.attack (player)
+        player.attack(computer)       
+        computer.attack(player)
 
         if (player.hit_points <= 0 or computer.hit_points <= 0):
             if (computer.hit_points <= 0):

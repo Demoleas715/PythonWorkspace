@@ -1,8 +1,6 @@
-import tkinter
-
-class Encryptor (object):
+class Encryptor(object):
     
-    def __init__ (self, file_name):   
+    def __init__(self, file_name):   
         ''' 
         Initializes a new encryption object, using the cypher from the specified file
         '''    
@@ -17,17 +15,17 @@ class Encryptor (object):
         
         text_file.close()
     
-    def encrypt_message (self, msg):
+    def encrypt_message(self, msg):
         ''' Returns an encrypted message. '''
         msg = msg.upper()
         return self.__write_message (msg, self.d_dict)
     
-    def decrypt_message (self, msg):
+    def decrypt_message(self, msg):
         ''' Returns a decrypted message. '''
         msg = msg.upper()
         return self.__write_message (msg, self.e_dict)
     
-    def __write_message (self, msg, my_dict):    
+    def __write_message(self, msg, my_dict):    
         out_msg = ""
         for c in msg:
             out_msg += my_dict.get(c,c)

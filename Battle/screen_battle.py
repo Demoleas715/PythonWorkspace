@@ -19,7 +19,7 @@ class Screen_Battle (tkinter.Frame):
         self.create_widgets()
         self.grid()
         
-    def create_widgets (self):
+    def create_widgets(self):
         '''
         This method creates all of the widgets for the battle page.
         '''
@@ -65,7 +65,7 @@ class Screen_Battle (tkinter.Frame):
         self.player2_dead = tkinter.Label(self, text = "", fg="red")
         self.player2_dead.grid(row=9, column=1)
 
-        self.exit_button = tkinter.Button(self, text="Exit", command=self.exit_clicked)
+        self.exit_button = tkinter.Button(self, text="Exit", command=self.exit_clicked, fg="red", font=("Impact", 18))
 
         self.health_bar1=ttk.Progressbar(self, orient="horizontal", length=200, maximum=100, mode="determinate", value=100)
         self.health_bar1.grid(row=8, column=0)
@@ -103,7 +103,7 @@ class Screen_Battle (tkinter.Frame):
                 self.player1_dead["text"] = "*DEAD*"
 
                 self.attack_button.destroy()
-                self.exit_button.grid(row=9, column=1, sticky=tkinter.E)
+                self.exit_button.grid(row=0, column=0, rowspan=2)
 
             if self.player2.hit_points<=0:
                 self.player2hp["text"] = "0/" + str(self.player2_max_hp) + " HP"
@@ -112,7 +112,7 @@ class Screen_Battle (tkinter.Frame):
                 self.player2_dead["text"] = "*DEAD*"
 
                 self.attack_button.destroy()
-                self.exit_button.grid(row=9, column=1, sticky=tkinter.E)
+                self.exit_button.grid(row=0, column=0, rowspan=0)
 
         if self.player1.hit_points<=0 and self.player2.hit_points<=0:
             self.player1hp["text"] = "0/" + str(self.player1_max_hp) + " HP"
@@ -137,7 +137,7 @@ class Screen_Battle (tkinter.Frame):
 
             self.attack_button.destroy()
 
-            self.exit_button.grid(row=10, column=1, sticky=tkinter.E)
+            self.exit_button.grid(row=0, column=0, rowspan=2)
 
     def exit_clicked(self):
         '''This method is called when the Exit button is clicked. 
