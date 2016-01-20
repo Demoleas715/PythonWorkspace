@@ -6,15 +6,16 @@ SayHi|1450100303897959000|D:\Coding\workspace\Unit5GUI\SayHi.py
 MyMadLib|1451691909406190000|D:\Coding\workspace\Unit5GUI\MyMadLib.py
 click_counter|1450187410372207000|D:\Coding\workspace\Unit5GUI\click_counter.py
 LazyButtons2|1450186503101722000|D:\Coding\workspace\Unit5GUI\LazyButtons2.py
-Encryptor|1452088741292494000|D:\Coding\workspace\Unit5GUI\Encryptor.py
+Encryptor|1452259415230238000|D:\Coding\workspace\Unit5GUI\Encryptor.py
+Cipher|1452259417196090000|D:\Coding\workspace\Unit5GUI\Cipher.py
 Longevity|1450359419251506000|D:\Coding\workspace\Unit5GUI\Longevity.py
-Cipher|1452089005880655000|D:\Coding\workspace\Unit5GUI\Cipher.py
 MovieChooser2|1450792174156233000|D:\Coding\workspace\Unit5GUI\MovieChooser2.py
 mad_lib|1451689835492361000|D:\Coding\workspace\Unit5GUI\mad_lib.py
 MovieChooser|1450585681220165000|D:\Coding\workspace\Unit5GUI\MovieChooser.py
 -- END DISKCACHE
 -- START DICTIONARY
-17
+18
+18=Application.load_cipher
 7=LazyButtons2
 11=Encryptor
 8=Longevity
@@ -42,25 +43,28 @@ mai|6|main!74@main!10@main!34@main!58@main!66@main!82@
 roo|4|root!27@root!43@root!51@root!19@
 -- END TREE
 -- START TREE 2
-30
-__i|10|__init__!12&18@__init__!12&42@__init__!12&74@__init__!12&34@__init__!12&58@__init__!12&50@__init__!11&90@__init__!12&66@__init__!12&82@__init__!12&10@
+33
+__i|10|__init__!12&42@__init__!12&18@__init__!12&74@__init__!12&34@__init__!12&58@__init__!12&50@__init__!11&90@__init__!12&66@__init__!12&82@__init__!12&10@
 __w|1|__write_message!11&90@
 bod|1|body_part!13&51@
 btt|7|bttn1!13&59@bttnHi!14&11@bttn3!13&59@bttnQuit!14&11@bttn_clicks!15&35@bttn2!13&59@bttn!16&35@
 bui|1|building!13&19@
-cre|9|createWidgets!12&10@create_widgets!12&50@create_widgets!12&66@create_widgets!12&42@create_widget!12&34@create_widgets!12&74@create_widgets!12&58@create_widgets!12&82@create_widgets!12&18@
+cre|9|createWidgets!12&10@create_widgets!12&50@create_widgets!12&42@create_widgets!12&66@create_widget!12&34@create_widgets!12&74@create_widgets!12&58@create_widgets!12&82@create_widgets!12&18@
 d_d|1|d_dict!17&91@
-dec|1|decrypt_message!11&90@
+dec|2|decrypt_message!11&90@decrypt_message!12&42@
+e|1|e!18&43@
 e_d|1|e_dict!17&91@
-enc|1|encrypt_message!11&90@
+enc|2|encrypt_message!12&42@encrypt_message!11&90@
 exc|1|exclamation_ent!13&19@
 fav|1|favorite!13&75@
 ins|1|inst_lbl!13&67@
 is_|6|is_joyous!13&51@is_dark!13&19@is_ominous!13&19@is_sinister!13&19@is_itchy!13&51@is_electric!13&51@
 lik|3|likes_drama!13&83@likes_comedy!13&83@likes_romance!13&83@
-msg|0|
+loa|2|load_cipher!12&42@load_file!13&43@
+msg|1|msg!13&43@
 nam|4|name3_ent!13&19@name_of_junior_ent!13&19@name2_ent!13&19@name1_ent!13&19@
 nou|6|noun5_ent!13&19@noun1_ent!13&19@noun2_ent!13&19@noun3_ent!13&19@noun_ent!13&51@noun4_ent!13&19@
+out|1|out_msg!13&43@
 per|1|person_ent!13&51@
 plu|1|plural_noun_ent!13&19@
 pw_|2|pw_ent!13&67@pw_lbl!13&67@

@@ -1,35 +1,36 @@
 -- VERSION_4
 -- START DISKCACHE_2
 D:\Coding\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Battle\com.python.pydev.analysis\v2_indexcache
-characters|1451913646189375000|D:\Coding\workspace\Battle\characters.py
-screen_battle|1452002734216441000|D:\Coding\workspace\Battle\screen_battle.py
-screen_prepare_to_battle|1452002731032643000|D:\Coding\workspace\Battle\screen_prepare_to_battle.py
-battle_manager|1451913645895058000|D:\Coding\workspace\Battle\battle_manager.py
-screen_pick_character|1452002219804496000|D:\Coding\workspace\Battle\screen_pick_character.py
+characters|1452382541343633000|D:\Coding\workspace\Battle\characters.py
+screen_battle|1452796816920795000|D:\Coding\workspace\Battle\screen_battle.py
+screen_prepare_to_battle|1452453106085660000|D:\Coding\workspace\Battle\screen_prepare_to_battle.py
+battle_manager|1452261841760439000|D:\Coding\workspace\Battle\battle_manager.py
+screen_pick_character|1452261840867227000|D:\Coding\workspace\Battle\screen_pick_character.py
 -- END DISKCACHE
 -- START DICTIONARY
-21
+22
 4=screen_prepare_to_battle
 10=Character
-15=Screen_prepare_to_battle.__init__
+12=Screen_Battle.create_widgets
+16=Screen_prepare_to_battle.__init__
 1=battle_manager
 7=Screen_character_selector
 8=Battle_Manager
 11=CharacterList
-13=Screen_Battle.__init__
-12=Battle_Manager.onclose_prepare_to_battle
-20=Battle_Manager.onclose_character_selector
-19=CharacterList.__init__
-21=Character.__init__
+14=Screen_Battle.__init__
+13=Battle_Manager.onclose_prepare_to_battle
+21=Battle_Manager.onclose_character_selector
+20=CharacterList.__init__
+22=Character.__init__
 2=characters
 9=Screen_prepare_to_battle
 3=screen_battle
-17=Screen_character_selector.create_widgets
+18=Screen_character_selector.create_widgets
 6=Screen_Battle
-14=Screen_character_selector.__init__
+15=Screen_character_selector.__init__
 5=screen_pick_character
-16=Battle_Manager.setup_character_selector
-18=Battle_Manager.__init__
+17=Battle_Manager.setup_character_selector
+19=Battle_Manager.__init__
 -- END DICTIONARY
 -- START TREE 1
 4
@@ -39,29 +40,35 @@ mai|1|main!10@
 scr|3|Screen_Battle!25@Screen_prepare_to_battle!33@Screen_character_selector!41@
 -- END TREE
 -- START TREE 2
-24
+30
 __i|6|__init__!6&26@__init__!7&42@__init__!8&10@__init__!9&34@__init__!10&18@__init__!11&18@
 __s|1|__str__!10&18@
-att|2|attack!10&18@attack_clicked!6&26@
-bat|1|battle_screen!12&11@
-cal|3|call_on_selected!13&27@call_on_selected!14&43@call_on_selected!15&35@
-cha|5|char_sel!16&11@character!17&43@character_choices!18&11@character_list!19&19@char_list!14&43@
-com|1|computer!20&11@
+att|5|attack!10&18@attack_text2!12&27@attack_text1!12&27@attack_button!12&27@attack_clicked!6&26@
+bat|1|battle_screen!13&11@
+cal|3|call_on_selected!14&27@call_on_selected!15&43@call_on_selected!16&35@
+cha|5|char_sel!17&11@character!18&43@character_choices!19&11@character_list!20&19@char_list!15&43@
+com|2|computer!12&27@computer!21&11@
 con|2|continue_clicked!9&34@continue_clicked!7&42@
 cre|3|create_widgets!9&34@create_widgets!7&42@create_widgets!6&26@
-dex|1|dexterity!21&19@
+dea|2|death_message!12&27@death_message2!12&27@
+dex|1|dexterity!22&19@
 die|1|die!10&18@
-exi|1|exit_clicked!6&26@
+exi|2|exit_button!12&27@exit_clicked!6&26@
 get|3|get_and_remove_character!11&18@get_random_character!11&18@get_number_of_characters!11&18@
-hit|1|hit_points!21&19@
-lar|1|large_image!21&19@
-nam|1|name!21&19@
+hea|2|health_bar1!12&27@health_bar2!12&27@
+hit|1|hit_points!22&19@
+lar|1|large_image!22&19@
+nam|1|name!22&19@
 onc|3|onclose_prepare_to_battle!8&10@onclose_battle!8&10@onclose_character_selector!8&10@
-pla|7|player2_max_hp!13&27@player!20&11@player2!15&35@player2!13&27@player1!15&35@player1!13&27@player1_max_hp!13&27@
-pre|1|prepare!20&11@
+pla|11|player2_max_hp!14&27@player!21&11@player2hp!12&27@player2_dead!12&27@player2!16&35@player2!14&27@player1hp!12&27@player1!16&35@player1!14&27@player1_dead!12&27@player1_max_hp!14&27@
+pre|1|prepare!21&11@
 pri|1|print_list!11&18@
-roo|1|root!18&11@
+roo|1|root!19&11@
 set|1|setup_character_selector!8&10@
-sma|1|small_image!21&19@
-str|1|strength!21&19@
+sma|1|small_image!22&19@
+str|1|strength!22&19@
+vic|1|victorious!12&27@
+w|1|w!12&27@
+w2|1|w2!12&27@
+you|1|you!12&27@
 -- END TREE

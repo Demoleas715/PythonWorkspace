@@ -2,6 +2,7 @@
 -- START DISKCACHE_2
 D:\Coding\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Unit3ListsFunctionsDicts\com.python.pydev.analysis\v2_indexcache
 NumberDistribution|1447735421390333000|D:\Coding\workspace\Unit3ListsFunctionsDicts\NumberDistribution.py
+what|1452520123808032000|D:\Coding\workspace\Unit3ListsFunctionsDicts\what.py
 RewriteUsingFor|1446001983770145000|D:\Coding\workspace\Unit3ListsFunctionsDicts\RewriteUsingFor.py
 Cipher|1447816452723961000|D:\Coding\workspace\Unit3ListsFunctionsDicts\Cipher.py
 StateCapitals|1447682040467507000|D:\Coding\workspace\Unit3ListsFunctionsDicts\StateCapitals.py
@@ -10,8 +11,9 @@ StatsCalc|1447005329934168000|D:\Coding\workspace\Unit3ListsFunctionsDicts\Stats
 VowelsAndConsonants|1446001983839149000|D:\Coding\workspace\Unit3ListsFunctionsDicts\VowelsAndConsonants.py
 -- END DISKCACHE
 -- START DICTIONARY
-7
+8
 7=NumberDistribution
+8=what
 1=RewriteUsingFor
 3=Cipher
 4=StateCapitals
@@ -20,7 +22,7 @@ VowelsAndConsonants|1446001983839149000|D:\Coding\workspace\Unit3ListsFunctionsD
 6=RewriteUsingWhile
 -- END DICTIONARY
 -- START TREE 1
-15
+16
 a|1|a!11@
 c|1|c!11@
 con|1|consonants!18@
@@ -36,6 +38,7 @@ loa|1|load_cipher_file!26@
 mai|4|main!18@main!26@main!58@main!42@
 rea|3|read_numbers_from_file!42@read_states_into_dict!34@read_num_dist!58@
 vow|1|vowels!18@
+yes|1|yes!67@
 -- END TREE
 -- START TREE 2
 0
